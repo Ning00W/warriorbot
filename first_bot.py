@@ -1,5 +1,6 @@
 import openai
 import discord
+import os
 
 openai.api_type = "azure"
 openai.api_version = "2023-03-15-preview"
