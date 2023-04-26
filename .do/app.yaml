@@ -1,0 +1,11 @@
+name: seahorse-app
+region: london  
+workers:  
+  - name: worker  
+    environment_slug: python  
+    github:  
+      repo: Ning00W/warriorbot  
+      branch: main  
+    instance_count: 1  
+    instance_size_slug: basic-xxs 
+    run_command: python first_bot.py 
